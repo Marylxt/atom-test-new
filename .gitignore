@@ -27,6 +27,7 @@ backend/.env
 # ---------- 编辑器 / 系统 ----------
 .idea/
 .vscode/
+.claude/
 .DS_Store
 Thumbs.db
 
