@@ -1,0 +1,14 @@
+{
+  "name": "atom-test-new",
+  "version": "1.0.0",
+  "private": true,
+  "description": "仓库根目录的快捷脚本：把前端相关命令转发到 frontend/，这样在根目录也能直接 npm run dev。后端请用 python run.py（见 README 快速开始）。",
+  "scripts": {
+    "install:web": "npm --prefix frontend install",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "lint": "npm --prefix frontend run lint"
+  }
+}

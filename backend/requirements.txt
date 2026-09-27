@@ -1,0 +1,23 @@
+# ---------- Web ----------
+fastapi>=0.110,<1
+uvicorn[standard]>=0.27,<1
+python-multipart>=0.0.9
+anyio>=4.3,<5
+
+# ---------- 配置 / 校验 ----------
+pydantic>=2.6,<3
+pydantic-settings>=2.2,<3
+python-dotenv>=1.0,<2
+
+# ---------- Supabase ----------
+supabase>=2.5,<3
+PyJWT[crypto]>=2.8,<3
+
+# ---------- LangChain / LLM ----------
+langchain>=0.3,<2
+langchain-core>=0.3,<2
+langchain-openai>=0.2,<2
+langchain-ollama>=0.2,<2
+
+# ---------- 其他 ----------
+httpx>=0.27,<1

@@ -1,0 +1,40 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.local
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- Node / Next.js ----------
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+.eslintcache
+
+# ---------- 环境变量 ----------
+frontend/.env.local
+frontend/.env
+backend/.env
+
+# ---------- 编辑器 / 系统 ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---------- 日志 / 临时文件 ----------
+*.log
+logs/
+tmp/
+# 冒烟脚本的产物（scripts/smoke_llm.py 生成）
+backend/scripts/out/
+# 本地 SQLite 回落时的数据库文件（STORAGE_BACKEND=sqlite）
+backend/data/
